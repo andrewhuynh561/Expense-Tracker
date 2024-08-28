@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 //Di
-builder.Services.AddDbContext
+//builder.Services.AddDbContext
 
 var app = builder.Build();
 
